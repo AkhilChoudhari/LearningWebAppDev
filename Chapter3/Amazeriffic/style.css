@@ -27,8 +27,23 @@ header nav {
 }
 
 main {
-  background: white;
+  background: #FF00FF;
+  font-family: Times New Roman, Serif;
   overflow: auto;
+}
+
+.a
+{
+  background: #FF00FF;
+  color: black;
+}
+
+.b
+{
+   font-family: Times New Roman, Serif;
+  color: black;
+  background: white;
+  background-size: auto;
 }
 
 main .left {
@@ -41,7 +56,7 @@ main .right {
   width: 285px;
 }
 
-footer .left {
+footer .left{
   float: left;
   width: 570px;
 }
