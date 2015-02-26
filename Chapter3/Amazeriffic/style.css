@@ -27,14 +27,14 @@ header nav {
 }
 
 main {
-  background: #FF00FF;
+  background: white;
   font-family: Times New Roman, Serif;
   overflow: auto;
 }
 
 .a
 {
-  background: #FF00FF;
+  background: #C0C0C0;
   color: black;
 }
 
