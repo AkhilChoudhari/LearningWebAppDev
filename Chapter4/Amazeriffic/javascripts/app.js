@@ -50,6 +50,19 @@ var main = function () {
                 can be done with $content = $("<div>").append($input, $button); */
             }
 
+               else if ($element.parent().is(":nth-child(4)")) {
+                    $content = $("<ul>");
+                    $content.append('<li><a class="group4"  href="1.png" title="">SnapShot 1</a></li>');
+                    $content.append('<li><a class="group4"  href="2.png" title="">SnapShot 2</a></li>');
+                    $content.append('<li><a class="group4"  href="3.png" title="">SnapShot 3</a></li>');
+                    $content.append('<li><a class="group4"  href="4.png" title="">Snapshot 4</a></li>');
+                    $content.on("click", function () {
+                    $("a.group4").colorbox({rel:'group4', slideshow:true});
+
+                });
+
+            }        
+
             $("main .content").append($content);
 
             return false;
